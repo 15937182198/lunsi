@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.HeadDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.HeadEntity" id="headMap">
+        <result property="id" column="id"/>
+        <result property="scope" column="scope"/>
+        <result property="bjphone" column="bjPhone"/>
+        <result property="phone" column="phone"/>
+        <result property="addtime" column="addTime"/>
+        <result property="updatetime" column="updateTime"/>
+    </resultMap>
+
+
+</mapper>
