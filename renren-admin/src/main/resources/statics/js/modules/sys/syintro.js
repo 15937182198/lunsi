@@ -3,6 +3,7 @@ $(function () {
         url: baseURL + 'sys/syintro/list',
         datatype: "json",
         colModel: [
+			{ label: 'introid', name: 'introid', index: 'introId', width: 50, key: true },
 			{ label: '论思简介内容', name: 'introcontent', index: 'introContent', width: 80 },
 			{ label: '论思简介图片', name: 'imgaddress', index: 'imgAddress', width: 80 , formatter: function (cellvalue, options, rowObject) {
                     var data=rowObject.imgaddress;
